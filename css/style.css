@@ -33,7 +33,7 @@
 .content-wrap {
 	height: 70%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 .footer-wrap {
 	width: 100%;
