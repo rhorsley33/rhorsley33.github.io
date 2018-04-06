@@ -50,3 +50,23 @@
 .toggle-right {
 	margin-right: 20px;
 }
+.skills-wrap {
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    width: 33%;
+    border-right: 2px solid #e0e0e0;
+    border-left: 2px solid #e0e0e0;
+}
+div#app ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#app ul li {
+    width: 100%;
+}
+
+#app ul li img {
+    width: 25%;
+}
