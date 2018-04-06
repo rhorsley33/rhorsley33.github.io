@@ -110,7 +110,7 @@ new Vue({
 
 function setWindowHeight(){
     var wHeight = window.innerHeight;
-    document.body.style.maxHeight = wHeight + "px";
+    document.body.style.height = wHeight + "px";
 }
 
 window.addEventListener("resize",setWindowHeight,false);
