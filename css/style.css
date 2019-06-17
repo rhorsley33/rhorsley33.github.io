@@ -33,6 +33,7 @@
 .content-wrap {
 	height: 70%;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 }
 .content-wrap ul li img {
@@ -73,4 +74,10 @@ div#app ul {
 
 #app ul li img {
     width: 30%;
+}
+@media (max-width: 768px) { 
+	.cw-cc {
+		width: 100%;
+		text-align: center;
+	}
 }
